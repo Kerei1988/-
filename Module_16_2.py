@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Path, HTTPException, Body
+from fastapi import FastAPI, Path
 
 app = FastAPI()
 
