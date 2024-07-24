@@ -12,7 +12,7 @@ async def welcome():
 
 
 @app.get("/users")
-async def users() -> dict:
+async def all_user() -> dict:
     return users
 
 
