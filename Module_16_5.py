@@ -16,7 +16,7 @@ class User(BaseModel):
 
 
 @app.get('/')
-async def get_all_users(request: Request) -> HTMLResponse:
+def get_all_users(request: Request) -> HTMLResponse:
     return templates.TemplateResponse("users.html", {"request": request, "users": users_db})
 
 
